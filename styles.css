@@ -643,12 +643,12 @@ section {
     color: var(--primary-color);
 }
 
-.skill-card[data-skill="html"] .skill-icon { color: #e34f26; }
-.skill-card[data-skill="css"] .skill-icon { color: #1572b6; }
-.skill-card[data-skill="javascript"] .skill-icon { color: #f7df1e; }
-.skill-card[data-skill="react"] .skill-icon { color: #61dafb; }
-.skill-card[data-skill="git"] .skill-icon { color: #f05032; }
-.skill-card[data-skill="responsive"] .skill-icon { color: var(--accent-color); }
+.skill-card[data-skill="python"] .skill-icon { color: #3776AB; }
+.skill-card[data-skill="langchain"] .skill-icon { color: #83A5FF; }
+.skill-card[data-skill="flask"] .skill-icon { color: #ffffff; } /* White icon for Flask */
+.skill-card[data-skill="rag"] .skill-icon { color: #20c997; }
+.skill-card[data-skill="js"] .skill-icon { color: #f7df1e; }
+.skill-card[data-skill="html-css"] .skill-icon { color: #e34f26; }
 
 .skill-name {
     font-size: 1.5rem;

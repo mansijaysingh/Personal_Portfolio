@@ -96,12 +96,12 @@ function initNavigation() {
 // Typing effect for hero section
 function initTypingEffect() {
     const typingElement = document.getElementById('typing-text');
-    const texts = [
-        'Frontend Developer',
-        'UI/UX Enthusiast',
-        'Code Artist',
-        'Problem Solver',
-        'Creative Thinker'
+   const texts = [
+        'AI Engineer',
+        'LangChain Developer',
+        'Python Developer',
+        'Full-Stack Enthusiast',
+        'Problem Solver'
     ];
     
     let textIndex = 0;
