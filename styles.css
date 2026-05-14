@@ -744,8 +744,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--primary-color);
+    background:
+        radial-gradient(circle at center,
+        rgba(99, 102, 241, 0.15),
+        transparent 70%);
+    transition: var(--transition-medium);
+}
+
+.project-card:hover .project-image-placeholder {
+    transform: scale(1.08);
+    color: var(--secondary-color);
 }
 
 .project-overlay {
