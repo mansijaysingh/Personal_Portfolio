@@ -1158,6 +1158,18 @@ section {
         padding: var(--spacing-md);
     }
     
+    .projects-grid {
+    grid-template-columns: 1fr;
+}
+
+.project-card {
+    width: 100%;
+}
+
+.project-description {
+    min-height: auto;
+}
+
     .about-card {
         padding: var(--spacing-md);
     }
