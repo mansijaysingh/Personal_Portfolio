@@ -224,7 +224,7 @@ body {
 
 .name {
     display: block;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
@@ -234,7 +234,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: var(--accent-color);
     margin-bottom: var(--spacing-md);
@@ -251,10 +251,11 @@ body {
 }
 
 .hero-description {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: var(--text-secondary);
     margin-bottom: var(--spacing-xl);
-    max-width: 500px;
+    max-width: 550px;
+    line-height: 1.9;
 }
 
 .hero-buttons {
@@ -644,11 +645,20 @@ section {
 }
 
 .skill-card[data-skill="python"] .skill-icon { color: #3776AB; }
+
 .skill-card[data-skill="langchain"] .skill-icon { color: #83A5FF; }
-.skill-card[data-skill="flask"] .skill-icon { color: #ffffff; } /* White icon for Flask */
+
+.skill-card[data-skill="langgraph"] .skill-icon { color: #a855f7; }
+
+.skill-card[data-skill="openai"] .skill-icon { color: #10b981; }
+
+.skill-card[data-skill="flask"] .skill-icon { color: #ffffff; }
+
 .skill-card[data-skill="rag"] .skill-icon { color: #20c997; }
-.skill-card[data-skill="js"] .skill-icon { color: #f7df1e; }
-.skill-card[data-skill="html-css"] .skill-icon { color: #e34f26; }
+
+.skill-card[data-skill="streamlit"] .skill-icon { color: #ff4b4b; }
+
+.skill-card[data-skill="agents"] .skill-icon { color: #f59e0b; }
 
 .skill-name {
     font-size: 1.5rem;
@@ -790,7 +800,8 @@ section {
 .project-description {
     color: var(--text-secondary);
     margin-bottom: var(--spacing-md);
-    line-height: 1.6;
+    line-height: 1.7;
+    min-height: 120px;
 }
 
 .project-tech {
