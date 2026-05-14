@@ -889,6 +889,7 @@ section {
 .contact-method:hover {
     transform: translateX(10px);
     border-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
 }
 
 .method-icon {
@@ -912,6 +913,7 @@ section {
     color: var(--text-secondary);
     text-decoration: none;
     transition: var(--transition-fast);
+    word-break: break-word;
 }
 
 .method-info a:hover {
