@@ -634,7 +634,9 @@ section {
 
 .skill-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 25px rgba(99, 102, 241, 0.25);
     border-color: var(--primary-color);
 }
 
@@ -723,7 +725,9 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 30px rgba(99, 102, 241, 0.25);
     border-color: var(--primary-color);
 }
 
