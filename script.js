@@ -97,12 +97,12 @@ function initNavigation() {
 function initTypingEffect() {
     const typingElement = document.getElementById('typing-text');
    const texts = [
-        'AI Engineer',
-        'LangChain Developer',
-        'Python Developer',
-        'Full-Stack Enthusiast',
-        'Problem Solver'
-    ];
+    'AI Engineer',
+    'GenAI Developer',
+    'LangGraph Builder',
+    'RAG Developer',
+    'LLM Application Developer'
+];
     
     let textIndex = 0;
     let charIndex = 0;
